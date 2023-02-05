@@ -1,0 +1,14 @@
+Headers vs sections (HTML), whats the difference? 
+what causes 'boxes' to grow/shrink?
+vertical vs horazontal display of txt within boxes. How do I select 
+which one?
+Why are the symbols not displaying? link: https://fontawesome.com/search?o=r&m=free
+
+Im hard coding all this, could I make a card "object" that given some
+user data generates these cards and then my css/html puts them in the feed?
+How would I do that?
+I've been structuring my 'cards' using section class='name' 
+(comments, description ect) is this good or is there a better way?
+How can I make my code cleaner? Its a wreck rn and thats causing headaches.
+
+Thank you for your help, I really appreciate it! 
