@@ -61,6 +61,9 @@ li {
     display: flex;
     /* box-sizing:content-box;      */
     border: solid 3px rgb(0, 0, 0);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .post .description ul {
