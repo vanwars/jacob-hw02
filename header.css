@@ -38,9 +38,9 @@ li {
     font-style: normal;
 }
 
-.news-feed{
+.news-feed {
     display: flex;
-    margin: 200px;
+    margin: 50px 10%; /* first argument is vertical margin, second argument is horizontal margin */
     align-content: stretch;
     flex-wrap: wrap;
     justify-content: flex-start;
@@ -60,4 +60,19 @@ li {
 
 .description ul {
     display: flex;
+}
+
+.post {
+    width: 100%;
+}
+
+.post img {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 700px) {
+    .news-feed {
+        margin: 50px 0%; /* first argument is vertical margin, second argument is horizontal margin */
+    }
 }
