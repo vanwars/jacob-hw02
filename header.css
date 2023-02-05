@@ -39,30 +39,17 @@ li {
 }
 
 .news-feed {
-    display: flex;
-    margin: 50px 10%; /* first argument is vertical margin, second argument is horizontal margin */
-    align-content: stretch;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.news-feed section{
-    box-sizing:content-box;     
-    border: solid 1px rgb(0, 0, 0);
-    margin: 30px;
-}
-
-.news-feed section header {
-    display: flex;
-    box-sizing:content-box;     
-    border: solid 3px rgb(0, 0, 0);
-}
-
-.description ul {
-    display: flex;
+    /* display: flex; */
+    margin: 150px 15%; /* first argument is vertical margin, second argument is horizontal margin */
+    /* align-content: stretch; */
+    /* flex-wrap: wrap; */
+    /* justify-content: flex-start; */
 }
 
 .post {
+    /* box-sizing:content-box;      */
+    border: solid 1px rgb(0, 0, 0);
+    margin: 30px 0px; /* turned off left-right margin */
     width: 100%;
 }
 
@@ -70,9 +57,25 @@ li {
     width: 100%;
 }
 
+.post header {
+    display: flex;
+    /* box-sizing:content-box;      */
+    border: solid 3px rgb(0, 0, 0);
+}
+
+.post .description ul {
+    display: flex;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .news-feed {
+        margin: 150px 10%; /* first argument is vertical margin, second argument is horizontal margin */
+    }
+}
 
 @media screen and (max-width: 700px) {
     .news-feed {
-        margin: 50px 0%; /* first argument is vertical margin, second argument is horizontal margin */
+        margin: 150px 4%; /* first argument is vertical margin, second argument is horizontal margin */
     }
 }
